@@ -1,0 +1,41 @@
+#container{
+    display: grid;
+    border: 15px solid red;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#panel {
+    background-color: grey;
+    width: 45px;
+    height: 45px;
+}
+
+#options {
+    margin: 30px;
+}
+
+#special {
+    float: right;
+}
+
+body {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: rgba(63, 191, 63, 0.9);
+}
+
+h4 {
+    display: inline;
+}
+
+html {
+    background-color: rgba(63, 191, 63, 0.5);
+}
